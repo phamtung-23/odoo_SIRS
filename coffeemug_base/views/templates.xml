@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_title" name="change title" inherit_id="web.layout">
+        <xpath expr="//title" position="replace">
+            <title>SIRS</title>
+        </xpath>
+    </template>
+    <template id="custom_favicon" name="Change Favicon" inherit_id="web.layout">
+        <xpath expr="//link[@rel='shortcut icon']" position="replace">
+            <link rel="shortcut icon" type="image/x-icon" href="/coffeemug_base/static/src/img/favicon.png"/>
+        </xpath>
+    </template>
+</odoo>
